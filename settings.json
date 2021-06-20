@@ -1,0 +1,38 @@
+{
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "search.seedWithNearestWord": false,
+    "files.autoGuessEncoding": true,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    "window.openWithoutArgumentsInNewWindow": "off",
+    "window.doubleClickIconToClose": true,
+    "window.nativeTabs": true,
+    "search.showLineNumbers": true,
+    "workbench.editor.closeOnFileDelete": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.find.globalFindClipboard": true,
+    "search.seedOnFocus": false,
+    "editor.occurrencesHighlight": true,
+    "editor.selectionHighlight": true,
+    "editor.fontSize": 16,
+    "editor.find.seedSearchStringFromSelection": true,
+    "window.zoomLevel": -0.5,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.defaultInterpreterPath": "/usr/bin/python",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.find.seedSearchStringFromCursor": false,
+}

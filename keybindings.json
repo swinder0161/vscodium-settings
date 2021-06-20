@@ -1,0 +1,93 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f3",
+        "command": "editor.action.nextSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+f3",
+        "command": "editor.action.previousSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "f12",
+        "command": "deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "editor.action.clipboardCutAction"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "editor.action.clipboardPasteAction"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "undo"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "redo"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFileFolder"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f3",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+f2",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },]
+    {
+        "key": "f2",
+        "command": "bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f2",
+        "command": "bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    }
+]
